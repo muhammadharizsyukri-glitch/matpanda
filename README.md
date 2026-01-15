@@ -26,14 +26,16 @@ You have **60 minutes** to complete all tasks. Good luck!
 2. **Clone your fork** to your local machine.
 3. **Create a new Python script** called `run_analysis.py` that does the following:
    - Loads `sales.csv` using `pandas`
-   - Imports and uses the `add_revenue()` function from `helpers.py`
+   - Columns: `product`,`units_sold`,`price_per_unit`
+   - **Task**: Add a `total_revenue` column (`units_sold * price_per_unit`).
+   - Imports and uses the `calculate_total_revenue()` function from `helpers.py`
    - Saves the updated data as `sales_with_revenue.csv`
    - Creates a simple bar plot of `product` vs `revenue` and saves it as `revenue_plot.png`
 4. **Run your script** to generate the output files.
 5. **Deliverables** (Must Be in Your Fork by Deadline):
-   - `run_analysis.py`
-   - `sales_with_revenue.csv`
-   - `revenue_plot.png`
+   - Python script: `run_analysis.py`
+   - Updated CSV: `sales_with_revenue.csv` with `total_revenue` column
+   - Plot image: `revenue_plot.png`
 
 ---
 
